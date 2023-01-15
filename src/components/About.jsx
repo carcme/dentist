@@ -21,10 +21,11 @@ const About = () => {
               True Healthcare For Your Family
             </h2>
             <p className="py-5 leading-8 text-light-color">
-              Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
-              Laboriosam Cupiditate Vero In Provident Ducimus. Totam Quas
-              Labore Mollitia Cum Nisi, Sint, Expedita Rem Error Ipsa,
-              Nesciunt Ab Provident. Aperiam, Officiis!
+              At Slough Dental Hygiene, we believe in getting your teeth and gums healthy and
+              your smile bright. We provide a complete range of dental services in a relaxing,
+              family-friendly approach that’s sensitive to the needs of our patients as well as
+              their busy lifestyles. Our team takes a whole-person approach to oral health care
+              and wellness, combining friendly personal service with cutting-edge technology.
             </p>
             <Link href="https://www.picktime.com/SloughDentalHygiene">
               <Button text='Make Appointment' />
