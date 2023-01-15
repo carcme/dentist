@@ -35,7 +35,7 @@ const FooterData = () => {
       {
         FooterCards.map((card, index) => (
           <div className="text-center" key={index}>
-            <FontAwesomeIcon icon={card.icon} className='text-white bg-blue rounded-full text-3xl p-3'></FontAwesomeIcon>
+            <FontAwesomeIcon icon={card.icon} className='text-white bg-base rounded-full text-3xl p-3'></FontAwesomeIcon>
             <h3 className="text-black capitalize font-medium mt-3">{card.title}</h3>
             <p className="text-light-color align-left">{card.Firstsubtitle}</p>
             {

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-scroll';
 
-const NavLinks = ({handleNav}) => {
+const NavLinks = ({ handleNav }) => {
   const Links = [
     {
       name: 'Home',
@@ -21,14 +21,14 @@ const NavLinks = ({handleNav}) => {
     },
     {
       name: 'Contact',
-      path: 'contact'
+      path: 'footer'
     }
   ]
   return (
     <>
       {
         Links.map((link, index) => (
-          <li key={index} className='cursor-pointer text-white md:text-black text-xl md:text-base hover:text-blue'>
+          <li key={index} className='cursor-pointer text-white md:text-black text-xl md:text-base hover:text-base'>
             <Link to={link.path} offset={-40} smooth={true} duration={500} onClick={handleNav}>
               {link.name}
             </Link>

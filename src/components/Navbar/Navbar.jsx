@@ -30,8 +30,8 @@ const Navbar = () => {
       <header className={`fixed w-full left-0 top-0 z-10 duration-300 ${bg ? 'bg-white shadow-md' : ''}`}>
          <nav className='flex justify-between items-center max-w-[1200px] mx-auto px-5 h-20'>
             <Link to="home" smooth={true} duration={500} className='z-10 cursor-pointer'>
-               <h1 className={`text-2xl lg:text-3xl ${nav ? 'text-white' : 'text-white'}`}
-               ><span className="text-blue">Slough</span>Dental<span className="light-color">Hygiene</span></ h1>
+               <h1 className={`text-2xl lg:text-3xl ${nav ? 'text-white' : 'text-black'}`}
+               ><span className="text-base lg:text-3xl">Slough</span>Dental<span>Hygiene</span></ h1>
             </Link>
             <div className='hidden md:flex'>
                <ul className='flex space-x-8'>

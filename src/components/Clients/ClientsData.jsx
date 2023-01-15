@@ -27,13 +27,13 @@ const ClientsData = () => {
     {
       img: ImgTwo,
       name: 'Aleksandra',
-      desc: 'amazing service by Clare and Meg yesterday!! Would definitely recommend! very professional, quick and very kind!',
+      desc: 'Amazing service by Clare and Meg yesterday!! Would definitely recommend! Very professional, quick and very kind!',
       title: 'February 2020'
     },
     {
       img: ImgThree,
       name: 'Mason',
-      desc: 'I am a nervous dental patient but however I felt so comfortable and welcome at slough dental hygiene the staff are so friendly and brilliant at their job would highly recommend',
+      desc: 'I am a nervous dental patient but however I felt so comfortable and welcome at Slough Dental Hygiene the staff are so friendly and brilliant at their job. Would highly recommend',
       title: 'June 2019'
     },
     {
@@ -72,15 +72,13 @@ const ClientsData = () => {
         ClientCards.map((client, index) => (
           <SwiperSlide key={index}>
             <div
-              className=" bg-white rounded p-4 text-center shadow-lg">
+              className=" bg-white rounded h-[460px] p-4 text-center shadow-lg">
               <img
                 src={client.img}
                 className="rounded-full h-24 w-24 mx-auto"
                 alt=''
               />
-              <p className="leading-8 text-light-color py-5">
-                {client.desc}
-              </p>
+              <p className="leading-8 text-light-color py-5">{client.desc}</p>
               {/* <div className="bg-light-bg inline-block px-4 py-1 space-x-1 rounded mb-4">
                 <StarIcons type={faStar} />
                 <StarIcons type={faStar} />
@@ -88,11 +86,8 @@ const ClientsData = () => {
                 <StarIcons type={faStar} />
                 <StarIcons type={faStar} />
               </div> */}
-              <h3 className="capitalize text-black font-medium md:text-xl mb-1">
-                {client.name}
-              </h3>
-              <span className="capitalize text-light-color"
-              >{client.title}</span
+              <h3 className="capitalize text-black font-medium md:text-xl mb-1">{client.name}</h3>
+              <span className="capitalize text-light-color">{client.title}</span
               >
             </div>
           </SwiperSlide>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from './Button'
 import AboutImg from '../assets/working.jpg'
-import { Link } from 'react-scroll';
+import Link from 'next/link'
 
 const About = () => {
   return (
@@ -16,7 +16,7 @@ const About = () => {
             />
           </div>
           <div className="text-center md:text-left">
-            <span className="text-blue text-lg"> About Us</span>
+            <span className="text-base text-lg"> About Us</span>
             <h2 className="text-3xl md:text-4xl leading-10 text-black pt-2">
               True Healthcare For Your Family
             </h2>
@@ -26,8 +26,8 @@ const About = () => {
               Labore Mollitia Cum Nisi, Sint, Expedita Rem Error Ipsa,
               Nesciunt Ab Provident. Aperiam, Officiis!
             </p>
-            <Link to="footer" smooth={true} duration={500}>
-              <Button text='Contact Us' />
+            <Link href="https://www.picktime.com/SloughDentalHygiene">
+              <Button text='Make Appointment' />
             </Link>
           </div>
         </div>

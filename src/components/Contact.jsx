@@ -50,7 +50,7 @@ const Contact = () => {
               />
             </div>}
             <input type="submit" value="Make Appointment" name="submit"
-              className="hidden lg:flex text-white text-center cursor-pointer bg-blue py-4 px-12 rounded
+              className="hidden lg:flex text-white text-center cursor-pointer bg-base py-4 px-12 rounded
               hover:bg-black"/>
           </form>
         </div>

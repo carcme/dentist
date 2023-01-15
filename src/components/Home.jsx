@@ -1,5 +1,6 @@
 import React from 'react'
 // import Typed from 'react-typed';
+import Link from 'next/link'
 import Button from './Button';
 
 const Home = () => {
@@ -15,13 +16,14 @@ const Home = () => {
             let us brighten your smile
           </h2>
           <p className="py-5 leading-8 text-light-color">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Laudantium itaque, quasi aliquam alias tempora voluptatibus.
+            A local, family-run, Independent Dental Hygiene Practice in the heart of Slough Trading Estate.
           </p>
-          <Button text='make appointment' />
+          <Link href="https://www.picktime.com/SloughDentalHygiene">
+            <Button text='Make Appointment' />
+          </Link>
         </div>
       </div>
-    </section>
+    </section >
   )
 }
 
