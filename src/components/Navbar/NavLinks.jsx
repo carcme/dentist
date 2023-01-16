@@ -21,7 +21,7 @@ const NavLinks = ({ handleNav }) => {
     },
     {
       name: 'Contact',
-      path: 'footer'
+      path: 'contact'
     }
   ]
   return (

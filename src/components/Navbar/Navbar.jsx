@@ -31,7 +31,7 @@ const Navbar = () => {
          <nav className='flex justify-between items-center max-w-[1200px] mx-auto px-5 h-20'>
             <Link to="home" smooth={true} duration={500} className='z-10 cursor-pointer'>
                <h1 className={`text-2xl lg:text-3xl ${nav ? 'text-white' : 'text-black'}`}
-               ><span className="text-base lg:text-3xl">Slough</span>Dental<span>Hygiene</span></ h1>
+               ><span className='text-2xl lg:text-3xl text-base }'>Slough</span>DentalHygiene</ h1>
             </Link>
             <div className='hidden md:flex'>
                <ul className='flex space-x-8'>
@@ -43,7 +43,7 @@ const Navbar = () => {
             </Link>
 
             {/* Hamburger icon */}
-            <div className={`flex md:hidden cursor-pointer z-10 hover:text-blue ${nav ? 'text-white' : 'text-black'}`} onClick={handleNav}>
+            <div className={`flex md:hidden cursor-pointer z-10 hover:text-base ${nav ? 'text-white' : 'text-black'}`} onClick={handleNav}>
                {nav ? <FontAwesomeIcon icon={faTimes} className='text-3xl'></FontAwesomeIcon> : <FontAwesomeIcon icon={faBars} className='text-3xl' ></FontAwesomeIcon>}
             </div>
 
